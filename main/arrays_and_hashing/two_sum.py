@@ -8,7 +8,7 @@ def two_sum(nums, target):
             if (nums[i] + nums[j] == target):
                 return [i,j]
 '''
-# using a dictionary
+# using a dictionary, time complexity of O(n) and mem complexity of O(n)
 
 def two_sum(nums, target):
     nums_dic = {}
